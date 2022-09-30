@@ -40,7 +40,7 @@ end)
 local str = json.encode(nodes)
 print(str)
 
-local path = "workspace/node-config.json"
+local path = "workspace/node-config1.json"
 local file = io.open(path, "w")
 file:write(str)
 file:close()
